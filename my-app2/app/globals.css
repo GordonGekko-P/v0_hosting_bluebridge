@@ -1,0 +1,15 @@
+@keyframes float {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-float {
+  animation: float 30s linear infinite;
+  display: inline-flex;
+  white-space: nowrap;
+}
+
